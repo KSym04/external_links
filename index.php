@@ -2,7 +2,7 @@
 /*
 Plugin Name: External Links for Osclass
 Plugin URI: http://www.dopethemes.com/plugins/external-links-for-osclass/
-Description: This plugin automatically convert links to anchor tag and adds rel=&quot;nofollow&quot; and target=&quot;_blank&quot;, for all the external links of your website item post.
+Description: This plugin automatically convert text URLs to hyoerlinks and adds rel=&quot;nofollow&quot; and target=&quot;_blank&quot;, for all the external links of your website item post.
 Version: 1.0.0
 Author: DopeThemes
 Author URI: http://www.dopethemes.com/

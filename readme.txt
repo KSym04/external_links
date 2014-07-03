@@ -5,11 +5,11 @@ Requires at least: 3.3.2
 Tested up to: 3.3.2
 Stable tag: 3.3.2
 
-This plugin automatically convert links to anchor tag and adds rel=&quot;nofollow&quot; and target=&quot;_blank&quot;, for all the external links of your website item post.
+This plugin automatically convert text URLs to hyoerlinks and adds rel=&quot;nofollow&quot; and target=&quot;_blank&quot;, for all the external links of your website item post.
 
 
 == Description ==
-This plugin automatically convert links to anchor tag and adds rel=&quot;nofollow&quot; and target=&quot;_blank&quot;, for all the external links of your website item post.
+This plugin automatically convert text URLs to hyoerlinks and adds rel=&quot;nofollow&quot; and target=&quot;_blank&quot;, for all the external links of your website item post.
 
 
 == Installation ==
