@@ -28,4 +28,4 @@ A: Currently, There is no available configuration panel for this plugin.
 
 == Changelog ==
 = 1.0.0 =
-* First release
+* First released
