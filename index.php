@@ -3,10 +3,10 @@
 Plugin Name: External Links for Osclass
 Plugin URI: http://www.dopethemes.com/plugins/external-links-for-osclass/
 Description: This plugin convert text URLs to hyperlinks and adds rel=&quot;nofollow&quot; and target=&quot;_blank&quot;, for all the external links of your website item post.
-Version: 1.0.0
+Version: 1.0.1
 Author: DopeThemes
 Author URI: http://www.dopethemes.com/
-Plugin update URI: http://www.dopethemes.com/files/osclass/plugins/external_links/update.php
+Plugin update URI: external-links
 Short Name: external_links
 Support URI: http://www.dopethemes.com/contact-us/
 */
