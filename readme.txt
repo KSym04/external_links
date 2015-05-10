@@ -2,10 +2,8 @@
 Contributors: DopeThemes
 Tags: external, icon, javascript, links, new tab, new window, nofollow, rel, seo, target, xhtml, _blank, _new, _none
 Requires at least: 3.3.2
-Tested up to: 3.3.2
-Stable tag: 3.3.2
-
-This plugin convert text URLs to hyperlinks and adds rel=&quot;nofollow&quot; and target=&quot;_blank&quot;, for all the external links of your website item post.
+Tested up to: 3.4.1
+Stable tag: 3.4.1
 
 
 == Description ==
@@ -27,5 +25,8 @@ A: Currently, There is no available configuration panel for this plugin.
 
 
 == Changelog ==
+= 1.0.1 =
+* Added language file en_US
+
 = 1.0.0 =
 * First released
