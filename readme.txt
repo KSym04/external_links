@@ -20,13 +20,12 @@ This plugin convert text URLs to hyperlinks and adds rel=&quot;nofollow&quot; an
 1. Q: How to use this plugin?
 A: Just wrap the string to external_links_make_clickable() for example: external_links_make_clickable( osc_item_description )
 
-1. Q: Where's the admin settings?
-A: Currently, There is no available configuration panel for this plugin.
-
 
 == Changelog ==
 = 1.0.1 =
 * Added language file en_US
+* Added admin panel
+* Lots of improvements
 
 = 1.0.0 =
 * First released

@@ -11,6 +11,64 @@ Short Name: external_links
 Support URI: http://www.dopethemes.com/contact-us/
 */
 
+// == INSTALLATION == //
+/**
+ * Set some defaults on after installation
+ */
+function external_links_call_after_install() {
+  osc_set_preference( 'new_tab', '', 'plugin-external_links', 'STRING' );
+}
+
+/**
+ * Delete preferences value after uninstall
+ */
+function external_links_call_after_uninstall() {
+  osc_delete_preference( 'new_tab', 'plugin-external_links' );
+}
+
+/**
+ * Save settings
+ */
+function external_links_actions() {
+  if ( Params::getParam( 'file' ) != 'external_links/admin.php' ) {
+    return '';
+  }
+
+  // Save settings
+  if ( Params::getParam( 'option' ) == 'settings_saved' ) {
+    // set data
+    osc_set_preference( 'new_tab', Params::getParam( "new_tab", false, false ), 'plugin-external_links', 'STRING' );
+
+    // return message
+    osc_add_flash_ok_message( __( 'Settings saved.', 'external_links' ), 'admin' );
+    osc_redirect_to( osc_admin_render_plugin_url( 'external_links/admin.php' ) );
+  }
+}
+osc_add_hook( 'init_admin', 'external_links_actions' );
+
+/**
+ * Admin page
+ */
+function external_links_admin() {
+  osc_admin_render_plugin( 'external_links/admin.php' );
+}
+
+/**
+ * Include on plugin submenu
+ */
+function external_links_admin_menu() {
+  osc_admin_menu_plugins( 'External Links Settings', osc_admin_render_plugin_url( 'external_links/admin.php' ), 'external_links_submenu' );
+}
+
+/**
+ * Load some style on our admin panel
+ */
+function external_links_admin_style() {
+  osc_enqueue_style( 'external_links-style', osc_plugin_url( __FILE__ ) . 'assets/css/style.css' );
+}
+osc_add_hook( 'init_admin', 'external_links_admin_style' );
+
+// == FUNCTIONS == //
 /**
  * Convert url string to make url clickable
  *
@@ -93,3 +151,9 @@ function external_links_make_clickable( $ret ) {
 
   return $ret;
 }
+
+// == HOOKS INSTALLATION AND PLUGIN REGISTRATION == //
+osc_register_plugin( osc_plugin_path( __FILE__ ), 'external_links_call_after_install' );
+osc_add_hook( osc_plugin_path( __FILE__ )."_uninstall", 'external_links_call_after_uninstall' );
+osc_add_hook( osc_plugin_path( __FILE__ )."_configure", 'external_links_admin' );
+osc_add_hook( 'admin_menu_init', 'external_links_admin_menu' );
