@@ -9,6 +9,14 @@ Stable tag: 3.4.1
 == Description ==
 This plugin convert text URLs to hyperlinks and adds rel=&quot;nofollow&quot; and target=&quot;_blank&quot;, for all the external links of your website item post.
 
+If you want to learn more about this plugin then we would suggest visiting [DopeThemes / Externals Links for Osclass](http://www.dopethemes.com/plugins/external-links-for-osclass/ "DopeThemes / External Links for Osclass").
+
+If you like using this plugin, then please leave us a good rating.
+
+Lastly, if you like this plugin then follow DopeThemes on:
+[Twitter](http://twitter.com/wearedopethemes "Twitter")
+[Facebook](http://facebook.com/wearedopethemes "Facebook")
+
 
 == Installation ==
 1. Upload `external_links/` to the `/oc-content/plugins/` directory

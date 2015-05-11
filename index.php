@@ -6,7 +6,7 @@ Description: This plugin convert text URLs to hyperlinks and adds rel=&quot;nofo
 Version: 1.0.1
 Author: DopeThemes
 Author URI: http://www.dopethemes.com/
-Plugin update URI: external-links
+Plugin update URI: external-links-for-osclass
 Short Name: external_links
 Support URI: http://www.dopethemes.com/contact-us/
 */
