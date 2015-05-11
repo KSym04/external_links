@@ -1,3 +1,18 @@
 /*
   External Links for Osclass Style
  */
+
+#external_links-form label {
+  cursor: pointer;
+}
+
+#external_links-form .form-controls {
+  padding-top: 5px;
+}
+
+#external_links-form .help-info {
+  font-size: 12px;
+  color: #777777;
+  margin-bottom: 25px;
+}
+

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: External Links for Osclass\n"
-"POT-Creation-Date: 2015-05-10 17:24+0800\n"
-"PO-Revision-Date: 2015-05-10 17:29+0800\n"
+"POT-Creation-Date: 2015-05-11 11:11+0800\n"
+"PO-Revision-Date: 2015-05-11 11:15+0800\n"
 "Last-Translator: \n"
 "Language-Team: DopeThemes <hello@dopethemes.com>\n"
 "Language: en_US\n"
@@ -16,3 +16,39 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-SearchPath-0: /Users/user/Dropbox/xampp/htdocs/osclass_plugin_dev/"
 "oc-content/plugins/external_links\n"
+
+#: /Users/user/Dropbox/xampp/htdocs/osclass_plugin_dev/oc-content/plugins/external_links/admin.php:8
+msgid "External Links for Osclass Settings"
+msgstr ""
+
+#: /Users/user/Dropbox/xampp/htdocs/osclass_plugin_dev/oc-content/plugins/external_links/admin.php:15
+msgid "Open in New Windows"
+msgstr ""
+
+#: /Users/user/Dropbox/xampp/htdocs/osclass_plugin_dev/oc-content/plugins/external_links/admin.php:19
+msgid "Open outbound links in new windows"
+msgstr ""
+
+#: /Users/user/Dropbox/xampp/htdocs/osclass_plugin_dev/oc-content/plugins/external_links/admin.php:24
+msgid "Add No Follow"
+msgstr ""
+
+#: /Users/user/Dropbox/xampp/htdocs/osclass_plugin_dev/oc-content/plugins/external_links/admin.php:28
+msgid "Add a rel=\"nofollow\" attribute to outbound links."
+msgstr ""
+
+#: /Users/user/Dropbox/xampp/htdocs/osclass_plugin_dev/oc-content/plugins/external_links/admin.php:33
+msgid "Auto Convert Emails"
+msgstr ""
+
+#: /Users/user/Dropbox/xampp/htdocs/osclass_plugin_dev/oc-content/plugins/external_links/admin.php:37
+msgid "Automatically converts emails into mailto."
+msgstr ""
+
+#: /Users/user/Dropbox/xampp/htdocs/osclass_plugin_dev/oc-content/plugins/external_links/admin.php:41
+msgid "Save"
+msgstr ""
+
+#: /Users/user/Dropbox/xampp/htdocs/osclass_plugin_dev/oc-content/plugins/external_links/index.php:49
+msgid "Settings saved."
+msgstr ""
