@@ -8,7 +8,7 @@
 if( ! defined( 'ABS_PATH' ) ) exit('No direct script access allowed'); // Exit if accessed directly ?>
 
 <h2 class="render-title"><?php _e( 'External Links for Osclass Settings', 'external_links' ); ?></h2>
-<form id="external_links-form" action="<?php echo osc_admin_render_plugin_url( 'external_links/admin.php' ); ?>" method="post">
+<form id="external_links-form" action="<?php echo osc_admin_render_plugin_url( 'external_links/admin/settings.php' ); ?>" method="post">
     <input type="hidden" name="option" value="settings_saved" />
     <fieldset>
         <div class="form-horizontal">

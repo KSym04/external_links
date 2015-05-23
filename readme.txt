@@ -26,7 +26,7 @@ Lastly, if you like this plugin then follow DopeThemes on:
 
 == Frequently Asked Questions ==
 1. Q: How to use this plugin?
-A: Just wrap the string to external_links_make_clickable() for example: external_links_make_clickable( osc_item_description )
+A: Wrap the string or content using external_links_make_clickable() function, for example: external_links_make_clickable( osc_item_description() );
 
 
 == Changelog ==
