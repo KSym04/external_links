@@ -1,54 +1,63 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: External Links for Osclass\n"
-"POT-Creation-Date: 2015-05-11 11:22+0800\n"
-"PO-Revision-Date: 2015-05-11 11:22+0800\n"
+"POT-Creation-Date: 2015-05-23 23:51+0800\n"
+"PO-Revision-Date: 2015-05-23 23:51+0800\n"
 "Last-Translator: \n"
 "Language-Team: DopeThemes <hello@dopethemes.com>\n"
 "Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.6\n"
-"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.8\n"
+"X-Poedit-Basepath: ..\\..\\\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e\n"
-"X-Poedit-SearchPath-0: /Users/user/Dropbox/xampp/htdocs/osclass_plugin_dev/"
-"oc-content/plugins/external_links\n"
+"X-Poedit-SearchPath-0: .\n"
 
-#: /Users/user/Dropbox/xampp/htdocs/osclass_plugin_dev/oc-content/plugins/external_links/admin.php:8
+#: admin/settings.php:10
 msgid "External Links for Osclass Settings"
 msgstr ""
 
-#: /Users/user/Dropbox/xampp/htdocs/osclass_plugin_dev/oc-content/plugins/external_links/admin.php:15
+#: admin/settings.php:16
+msgid "How to use this plugin?"
+msgstr ""
+
+#: admin/settings.php:17
+msgid ""
+"Wrap the string or content using external_links_make_clickable() function, "
+"for example: external_links_make_clickable( osc_item_description() );"
+msgstr ""
+
+#: admin/settings.php:21
 msgid "Open in New Windows"
 msgstr ""
 
-#: /Users/user/Dropbox/xampp/htdocs/osclass_plugin_dev/oc-content/plugins/external_links/admin.php:19
+#: admin/settings.php:25
 msgid "Open outbound links in new windows"
 msgstr ""
 
-#: /Users/user/Dropbox/xampp/htdocs/osclass_plugin_dev/oc-content/plugins/external_links/admin.php:24
+#: admin/settings.php:30
 msgid "Add No Follow"
 msgstr ""
 
-#: /Users/user/Dropbox/xampp/htdocs/osclass_plugin_dev/oc-content/plugins/external_links/admin.php:28
+#: admin/settings.php:34
 msgid "Add a rel=\"nofollow\" attribute to outbound links."
 msgstr ""
 
-#: /Users/user/Dropbox/xampp/htdocs/osclass_plugin_dev/oc-content/plugins/external_links/admin.php:33
+#: admin/settings.php:39
 msgid "Auto Convert Emails"
 msgstr ""
 
-#: /Users/user/Dropbox/xampp/htdocs/osclass_plugin_dev/oc-content/plugins/external_links/admin.php:37
+#: admin/settings.php:43
 msgid "Automatically converts emails into mailto."
 msgstr ""
 
-#: /Users/user/Dropbox/xampp/htdocs/osclass_plugin_dev/oc-content/plugins/external_links/admin.php:41
+#: admin/settings.php:47
 msgid "Save"
 msgstr ""
 
-#: /Users/user/Dropbox/xampp/htdocs/osclass_plugin_dev/oc-content/plugins/external_links/index.php:49
+#: index.php:51
 msgid "Settings saved."
 msgstr ""

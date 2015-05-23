@@ -30,6 +30,11 @@ A: Just wrap the string to external_links_make_clickable() for example: external
 
 
 == Changelog ==
+= 1.0.2 =
+* Added instruction on admin settings
+* Update language file en_US
+* Minor security update
+
 = 1.0.1 =
 * Added language file en_US
 * Added admin panel

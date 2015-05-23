@@ -3,13 +3,15 @@
 Plugin Name: External Links for Osclass
 Plugin URI: http://www.dopethemes.com/plugins/external-links-for-osclass/
 Description: This plugin convert text URLs to hyperlinks and adds rel=&quot;nofollow&quot; and target=&quot;_blank&quot;, for all the external links of your website item post.
-Version: 1.0.1
+Version: 1.0.2
 Author: DopeThemes
 Author URI: http://www.dopethemes.com/
 Plugin update URI: external-links-for-osclass
 Short Name: external_links
 Support URI: http://www.dopethemes.com/contact-us/
 */
+
+if( ! defined( 'ABS_PATH' ) ) exit('No direct script access allowed'); // Exit if accessed directly
 
 // == INSTALLATION == //
 /**
@@ -34,7 +36,7 @@ function external_links_call_after_uninstall() {
  * Save settings
  */
 function external_links_actions() {
-  if ( Params::getParam( 'file' ) != 'external_links/admin.php' ) {
+  if ( Params::getParam( 'file' ) != 'external_links/admin/settings.php' ) {
     return '';
   }
 
@@ -47,7 +49,7 @@ function external_links_actions() {
 
     // return message
     osc_add_flash_ok_message( __( 'Settings saved.', 'external_links' ), 'admin' );
-    osc_redirect_to( osc_admin_render_plugin_url( 'external_links/admin.php' ) );
+    osc_redirect_to( osc_admin_render_plugin_url( 'external_links/admin/settings.php' ) );
   }
 }
 osc_add_hook( 'init_admin', 'external_links_actions' );
@@ -56,14 +58,14 @@ osc_add_hook( 'init_admin', 'external_links_actions' );
  * Admin page
  */
 function external_links_admin() {
-  osc_admin_render_plugin( 'external_links/admin.php' );
+  osc_admin_render_plugin( 'external_links/admin/settings.php' );
 }
 
 /**
  * Include on plugin submenu
  */
 function external_links_admin_menu() {
-  osc_admin_menu_plugins( 'External Links Settings', osc_admin_render_plugin_url( 'external_links/admin.php' ), 'external_links_submenu' );
+  osc_admin_menu_plugins( 'External Links Settings', osc_admin_render_plugin_url( 'external_links/admin/settings.php' ), 'external_links_submenu' );
 }
 
 /**
