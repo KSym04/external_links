@@ -30,6 +30,9 @@ A: Wrap the string or content using external_links_make_clickable() function, fo
 
 
 == Changelog ==
+= 1.0.3 =
+* WWW conversion issue fixed
+
 = 1.0.2 =
 * Added instruction on admin settings
 * Update language file en_US

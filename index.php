@@ -3,7 +3,7 @@
 Plugin Name: External Links for Osclass
 Plugin URI: http://www.dopethemes.com/plugins/external-links-for-osclass/
 Description: This plugin convert text URLs to hyperlinks and adds rel=&quot;nofollow&quot; and target=&quot;_blank&quot;, for all the external links of your website item post.
-Version: 1.0.2
+Version: 1.0.3
 Author: DopeThemes
 Author URI: http://www.dopethemes.com/
 Plugin update URI: external-links-for-osclass
@@ -93,7 +93,7 @@ function external_links_make_url_clickable_cb( $matches ) {
     return $matches[0];
   }
 
-  if ( in_array( substr( $url, -1 ), array( '.', ',', ';', ':' ) ) === true ) {
+  if ( in_array( substr( $url, -1 ), array( '.', ',', ';', ':' ) ) == true ) {
     $ret = substr( $url, -1 );
     $url = substr( $url, 0, strlen( $url )-1 );
   }
@@ -132,7 +132,7 @@ function external_links_make_web_ftp_clickable_cb( $matches ) {
     return $matches[0];
   }
 
-  if ( in_array( substr( $dest, -1 ), array( '.', ',', ';', ':' ) ) === true ) {
+  if ( in_array( substr( $dest, -1 ), array( '.', ',', ';', ':' ) ) == true ) {
     $ret = substr( $dest, -1 );
     $dest = substr( $dest, 0, strlen( $dest )-1 );
   }
@@ -141,7 +141,7 @@ function external_links_make_web_ftp_clickable_cb( $matches ) {
     $target_value = 'target="_blank"';
   }
 
-  return sprintf( '%1s<a href="%2s" %3s>%4s</a>%5s', $matches[1], $dest, $target_value, $url, $ret );
+  return sprintf( '%1s<a href="%2s" %3s>%4s</a>%5s', $matches[1], $dest, $target_value, $matches[2], $ret );
 }
 
 /**
