@@ -149,8 +149,13 @@ function _external_links_url_checker( $url ) {
 		$data_attr[] = sprintf( 'rel="%s"', implode( ' ', $rel_value ) );
 	  }
 
-	  // format attributes
-	  return $finalize_attr = implode( ' ', $data_attr );
+	  // check data attributes
+	  $finalize_attr = NULL;
+	  if( ! empty( $data_attr ) ) {
+		$finalize_attr = " " . implode( ' ', $data_attr );
+	  }
+
+	  return $finalize_attr;
   }
 }
 
@@ -189,7 +194,7 @@ function _external_link_osclass_make_url_clickable_cb( $matches ) {
 	}
 
 	$finalize_attr = _external_links_url_checker( $url );
-	return $matches[1] . "<a href=\"$url\" $finalize_attr>$url</a>" . $suffix;
+	return $matches[1] . "<a href=\"$url\"" . $finalize_attr . ">$url</a>" . $suffix;
 }
 
 /**
@@ -221,7 +226,7 @@ function _external_links_osclass_make_web_ftp_clickable_cb( $matches ) {
 
   	// Check if the url is external
   	$finalize_attr = _external_links_url_checker( $dest );
-	return $matches[1] . "<a href=\"$dest\" $finalize_attr>$dest</a>$ret";
+	return $matches[1] . "<a href=\"$dest\"" . $finalize_attr . ">$dest</a>$ret";
 }
 
 /**
