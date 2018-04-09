@@ -8,7 +8,7 @@ Author: DopeThemes
 Author URI: https://www.dopethemes.com/?utm_source=oc-plugins&utm_campaign=plugin-uri&utm_medium=oc-dash
 Plugin update URI: external-links-for-osclass
 Short Name: external_links
-Support URI: https://www.dopethemes.com/contact-us/?utm_source=oc-plugins&utm_campaign=plugin-uri&utm_medium=oc-dash
+Support URI: https://www.dopethemes.com/contact/?utm_source=oc-plugins&utm_campaign=plugin-uri&utm_medium=oc-dash
 */
 
 if( ! defined( 'ABS_PATH' ) ) {
