@@ -5,17 +5,18 @@
  * @since 1.0.1
  */
 
-if( ! defined( 'ABS_PATH' ) ) exit('No direct script access allowed'); // Exit if accessed directly ?>
+if( ! defined( 'ABS_PATH' ) ) {
+	exit;
+}
+?>
+<h2 class="render-title">
+	<?php _e( 'External Links for Osclass', 'external_links' ); ?>
+</h2>
 
-<h2 class="render-title"><?php _e( 'External Links for Osclass Settings', 'external_links' ); ?></h2>
 <form id="external_links-form" action="<?php echo osc_admin_render_plugin_url( 'external_links/admin/settings.php' ); ?>" method="post">
     <input type="hidden" name="option" value="settings_saved" />
     <fieldset>
         <div class="form-horizontal">
-            <div class="form-row well">
-                <h3><strong><?php _e( 'How to use this plugin?', 'external_links' ); ?></strong></h3>
-                <p><?php _e( 'Wrap the string or content using external_links_make_clickable() function, for example: external_links_make_clickable( osc_item_description() );', 'external_links' ); ?></p>
-            </div>
             <div class="form-row">
                 <div class="form-label">
                     <label for="new_window"><strong><?php _e( 'Open in New Windows', 'external_links' ); ?></strong></label>
@@ -32,6 +33,15 @@ if( ! defined( 'ABS_PATH' ) ) exit('No direct script access allowed'); // Exit i
                 <div class="form-controls">
                     <input type="checkbox" name="add_no_follow" id="add_no_follow" <?php echo osc_get_preference( 'add_no_follow', 'plugin-external_links' ) ? 'checked="true"' : ''; ?> name="add_no_follow" value="1">
                     <label for="add_no_follow"><?php _e( 'Add a rel="nofollow" attribute to outbound links.', 'external_links' ); ?></label>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-label">
+                    <label for="add_no_opener"><strong><?php _e( 'Add No Opener', 'external_links' ); ?></strong></label>
+                </div>
+                <div class="form-controls">
+                    <input type="checkbox" name="add_no_opener" id="add_no_opener" <?php echo osc_get_preference( 'add_no_opener', 'plugin-external_links' ) ? 'checked="true"' : ''; ?> name="add_no_opener" value="1">
+                    <label for="add_no_opener"><?php _e( 'Add a rel="noopener" attribute to outbound links.', 'external_links' ); ?></label>
                 </div>
             </div>
             <div class="form-row">
