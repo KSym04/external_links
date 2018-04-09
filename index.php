@@ -129,23 +129,24 @@ function _external_links_url_checker( $url ) {
 	$url_data = parse_url( $url );
 	if( $url_data['host'] !== $_SERVER['HTTP_HOST'] ) {
 	  $data_attr = array();
+	  $rel_value = array();
 
 	  // target attributes
 	  if( osc_get_preference( 'new_window', 'plugin-external_links' ) == true ) {
-		  $data_attr[] = 'target="_blank"';
+		$data_attr[] = 'target="_blank"';
 	  }
 
 	  // rel attributes
 	  if( osc_get_preference( 'add_no_follow', 'plugin-external_links' ) == true ) {
-			$rel_value[] = 'nofollow';
+		$rel_value[] = 'nofollow';
 	  }
 
 	  if( osc_get_preference( 'add_no_opener', 'plugin-external_links' ) == true ) {
-		  $rel_value[] = 'noopener';
+		$rel_value[] = 'noopener';
 	  }
 
 	  if( $rel_value ) {
-		  $data_attr[] = sprintf( 'rel="%s"', implode( ' ', $rel_value ) );
+		$data_attr[] = sprintf( 'rel="%s"', implode( ' ', $rel_value ) );
 	  }
 
 	  // format attributes
