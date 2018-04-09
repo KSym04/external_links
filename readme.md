@@ -23,7 +23,7 @@ if you want to learn more about this plugin, please visit [DopeThemes / External
 ## Frequently Asked Questions ##
 
 **Q: How to use this plugin?**\
-**_A:_** Optionally you could wrap function outputting a string or any content using external_links_make_clickable() function, for an example: external_links_make_clickable( osc_item_description() );
+**_A:_** Wrap our helper function for outputting a string or any content using `external_links_make_clickable()` function, for an example look for `osc_item_description()` inside item.php of the theme and apply the function helpers: `external_links_make_clickable( osc_item_description() )`
 
 ## Language Support ##
 
