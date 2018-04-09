@@ -1,63 +1,61 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: External Links for Osclass\n"
-"POT-Creation-Date: 2015-05-23 23:51+0800\n"
-"PO-Revision-Date: 2015-05-23 23:51+0800\n"
+"POT-Creation-Date: 2018-04-09 18:08+0800\n"
+"PO-Revision-Date: 2018-04-09 18:08+0800\n"
 "Last-Translator: \n"
 "Language-Team: DopeThemes <hello@dopethemes.com>\n"
 "Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8\n"
-"X-Poedit-Basepath: ..\\..\\\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ../..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: admin/settings.php:10
-msgid "External Links for Osclass Settings"
+#: admin.php:12 admin/settings.php:13
+msgid "External Links for Osclass"
 msgstr ""
 
-#: admin/settings.php:16
-msgid "How to use this plugin?"
-msgstr ""
-
-#: admin/settings.php:17
-msgid ""
-"Wrap the string or content using external_links_make_clickable() function, "
-"for example: external_links_make_clickable( osc_item_description() );"
-msgstr ""
-
-#: admin/settings.php:21
+#: admin.php:21 admin/settings.php:22
 msgid "Open in New Windows"
 msgstr ""
 
-#: admin/settings.php:25
+#: admin.php:25 admin/settings.php:26
 msgid "Open outbound links in new windows"
 msgstr ""
 
-#: admin/settings.php:30
+#: admin.php:30 admin/settings.php:31
 msgid "Add No Follow"
 msgstr ""
 
-#: admin/settings.php:34
+#: admin.php:34 admin/settings.php:35
 msgid "Add a rel=\"nofollow\" attribute to outbound links."
 msgstr ""
 
-#: admin/settings.php:39
+#: admin.php:39 admin/settings.php:49
 msgid "Auto Convert Emails"
 msgstr ""
 
-#: admin/settings.php:43
+#: admin.php:43 admin/settings.php:53
 msgid "Automatically converts emails into mailto."
 msgstr ""
 
-#: admin/settings.php:47
+#: admin.php:47 admin/settings.php:57
 msgid "Save"
 msgstr ""
 
-#: index.php:51
-msgid "Settings saved."
+#: admin/settings.php:40
+msgid "Add No Opener"
+msgstr ""
+
+#: admin/settings.php:44
+msgid "Add a rel=\"noopener\" attribute to outbound links."
+msgstr ""
+
+#: index.php:72
+msgid "Settings saved successfully"
 msgstr ""
