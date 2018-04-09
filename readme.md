@@ -6,7 +6,7 @@
 **Tags:** external links, seo\
 **Requires at least:** 3.3.2\
 **Tested up to:** 3.7.4\
-**Stable tag:** 1.0.4\
+**Stable tag:** 1.0.4
 
 ## Description ##
 
@@ -31,7 +31,7 @@ if you want to learn more about this plugin, please visit [DopeThemes / External
 
 ## Changelog ##
 
-### 1.0.4 ###
+### 1.0.4 - Apr 9, 2018 ###
 
 * Update language file
 * Added rel noopener
@@ -39,22 +39,22 @@ if you want to learn more about this plugin, please visit [DopeThemes / External
 * Improve coding standards and logics
 * Added license file
 
-### 1.0.3 ###
+### 1.0.3 - Jun 14, 2015 ###
 
 * WWW conversion issue fixed
 
-### 1.0.2 ###
+### 1.0.2 - May 24, 2015 ###
 
 * Added instruction on admin settings
 * Update language file en_US
 * Minor security update
 
-### 1.0.1 ###
+### 1.0.1 - May 11, 2015 ###
 
 * Added language file en_US
 * Added admin panel
 * Lots of improvements
 
-### 1.0.0 ###
+### 1.0.0 - Jul 3, 2014 ###
 
 * First released
