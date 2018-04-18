@@ -1,0 +1,5 @@
+*desktop.ini
+*_DS.store
+
+/node_modules/
+/vendor/
