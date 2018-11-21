@@ -10,12 +10,12 @@
 
 ## Description ##
 
-This plugin automatically convert text urls and all valid external links to anchor tag with lots of an optional features such as adding rel nofollow, noopener, open url in a new window and more.
+This plugin automatically convert text urls and all valid external links to anchor tag with lots of an optional features such as adding rel nofollow, noopener, open url in a new window and more.\
 
-If you want to learn more about this plugin, please visit [DopeThemes / External Links for Osclass](https://www.dopethemes.com/downloads/external-links-osclass/?utm_source=oc-repo&utm_medium=link&utm_campaign=readme).
+If you want to learn more about this plugin, please visit [DopeThemes / External Links for Osclass](https://www.dopethemes.com/downloads/external-links-osclass/?utm_source=oc-repo&utm_medium=link&utm_campaign=readme).\
 
-You may also send your donation for helping and supporting us to maintain free plugin releases:
-BTC: 1GJpyaLZjQ8JKaKih3UCwpuJAV15fTy9Rq
+You may also send your donation for helping and supporting us to maintain free plugin releases:\
+BTC: 1GJpyaLZjQ8JKaKih3UCwpuJAV15fTy9Rq\
 XRP: rUd5NTLuyFGeS9HyyvHhnB4sWC5f9vWWzj
 
 ## Installation ##
